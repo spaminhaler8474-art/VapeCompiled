@@ -41,3 +41,4 @@ else
 		end
 	end
 end
+print("Bypass The Fucking Anticheat L ANTICHEAT")
