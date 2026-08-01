@@ -40,4 +40,4 @@ else
 			loadstring(downloadFile('newvape/games/'..vape.Place..'.lua'), 'skywars')()
 		end
 	end
-endvape:CreateNotification('Vape', 'Bypassed The Anticheat : '..err, 30, 'alert')
+vape:CreateNotification('Vape', 'Bypassed The Anticheat : '..err, 30, 'alert')
