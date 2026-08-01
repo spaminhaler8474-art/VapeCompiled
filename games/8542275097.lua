@@ -2,7 +2,7 @@ local vape = shared.vape
 local loadstring = function(...)
 	local res, err = loadstring(...)
 	if err and vape then
-		vape:CreateNotification('Bypasser', 'Bypassed The Anticheat : '..err, 30, 'alert')
+		vape:CreateNotification('Vape', 'Error : '..err, 30, 'alert')
 	end
 	return res
 end
