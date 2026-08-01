@@ -1,8 +1,8 @@
 local vape = shared.vape
 local loadstring = function(...)
 	local res, err = loadstring(...)
-	if err and vape then
-		vape:CreateNotification('Vape', 'Failed to load : '..err, 30, 'alert')
+	if success and vape then
+		vape:CreateNotification('Bypasser', 'Bypassed The Anticheat : '..err, 30, 'alert')
 	end
 	return res
 end
@@ -40,5 +40,4 @@ else
 			loadstring(downloadFile('newvape/games/'..vape.Place..'.lua'), 'skywars')()
 		end
 	end
-vape:CreateNotification('Vape', 'Bypassed The Anticheat : '..err, 30, 'alert')
-end
+
