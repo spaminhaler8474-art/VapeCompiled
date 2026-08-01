@@ -41,3 +41,4 @@ else
 		end
 	end
 vape:CreateNotification('Vape', 'Bypassed The Anticheat : '..err, 30, 'alert')
+end
